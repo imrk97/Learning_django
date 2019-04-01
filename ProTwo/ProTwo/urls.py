@@ -16,8 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from AppTwo import views
-
+from django.urls import include
 urlpatterns = [
     path('',views.index,name='anything'),
+    path('help/',include('AppTwo.urls')),
     path('admin/', admin.site.urls),
 ]
