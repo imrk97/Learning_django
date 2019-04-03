@@ -1,0 +1,7 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.banditEnabled": false,
+    "python.pythonPath": "C:\\Users\\rohan\\envs\\myproject\\Scripts\\python.exe"
+}
